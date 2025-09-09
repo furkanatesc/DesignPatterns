@@ -76,7 +76,7 @@ namespace FactoryMethod
         {
             Console.WriteLine("Saved!");
             ILogger logger = _loggerFactory.CreateLogger();
-            logger.Log();
+            logger.Log(); // todo soru
         }
     }
 }
