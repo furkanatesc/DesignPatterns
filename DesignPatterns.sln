@@ -25,6 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{E8F9BEAC-223C-454B-8EA7-17549E54B6DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorOrnegim", "DecoratorOrnegim\DecoratorOrnegim.csproj", "{885F4671-CFF9-49EF-A037-B1F4611059AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F1FA632-FB92-4F18-8F51-DF15EE503779}"
+	ProjectSection(SolutionItems) = preProject
+		Notlarım.txt = Notlarım.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +82,10 @@ Global
 		{E8F9BEAC-223C-454B-8EA7-17549E54B6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8F9BEAC-223C-454B-8EA7-17549E54B6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8F9BEAC-223C-454B-8EA7-17549E54B6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885F4671-CFF9-49EF-A037-B1F4611059AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885F4671-CFF9-49EF-A037-B1F4611059AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885F4671-CFF9-49EF-A037-B1F4611059AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885F4671-CFF9-49EF-A037-B1F4611059AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

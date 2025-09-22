@@ -1,0 +1,151 @@
+
+Singleton: Bir sýnýfýn sadece tek örneði (instance) olsun ve her yerden ayný kullanýlsýn.
+
+
+Thread Safe Singleton: Singleton’u çoklu thread ortamýnda güvenli hale getirir.
+
+
+Factory Method: Nesne üretmeyi alt sýnýflara býrakarak esnek fabrika mantýðý saðlar.
+
+
+Abstract Factory: Birbiriyle iliþkili nesneleri, aile halinde üretmek için fabrika saðlar.
+
+
+Prototype: Var olan bir nesneyi kopyalayarak yeni nesne üretir.
+
+
+Builder: Karmaþýk nesneleri adým adým oluþturmaya yardýmcý olur.
+
+
+Facade: Karmaþýk sistemi basit bir arayüzle dýþarýya sunar.
+
+
+Adapter: Uyumlu olmayan iki sýnýfý birbirine çevirir (arada dönüþtürücü gibi).
+
+
+Composite: Nesneleri aðaç yapýsý gibi organize edip, tekil ve grup nesneleri ayný þekilde kullanmaný saðlar.
+
+
+Proxy: Asýl nesneye eriþimi kontrol eden aracý nesne saðlar (yetki, cache, vb.).
+
+
+Decorator: Nesneye sarmalayarak yeni özellikler ekler, sýnýfý deðiþtirmez.
+
+
+Bridge: Soyutlama ile implementasyonu ayýrýr, ikisini baðýmsýz geliþtirebilirsin.
+
+
+Strategy: Bir algoritmanýn farklý versiyonlarýný seçilebilir hale getirir.
+
+
+Strategy: Bir iþi yapmanýn farklý algoritmalarýný deðiþtirilebilir þekilde dýþarýdan takýp çýkarýrsýn.
+
+
+Observer: Bir nesnedeki deðiþiklikleri, abone olan diðer nesnelere otomatik olarak bildirirsin.
+
+
+Chain of Responsibility: Ýstek, uygun iþleyiciyi bulana kadar zincirde sýrayla dolaþtýrýlýr.
+
+
+Memento: Bir nesnenin anlýk durumunu kaydedip gerektiðinde geri yüklemeni saðlar (geri al).
+
+
+Template Method: Ýskelet akýþý üst sýnýfta sabitler, adýmlarýn ayrýntýsýný alt sýnýflara býrakýr.
+
+
+State: Nesnenin iç durumu deðiþtikçe davranýþý da dinamik olarak deðiþir.
+
+
+Mediator: Nesneler doðrudan konuþmak yerine bir aracý üzerinden haberleþir (baðýmlýlýk azalýr).
+
+
+Command: Bir iþlemi nesneleþtirir; sýraya koyma, geri alma ve loglama kolaylaþýr.
+
+
+Visitor: Nesne yapýsýný deðiþtirmeden elemanlara yeni iþlemler eklemeyi saðlar.
+
+
+Dependency Injection: Sýnýflarýn baðýmlýlýklarýný dýþarýdan vererek gevþek baðlý ve test edilebilir hale getirirsin.
+
+
+Null Object: “Yok” durumunda null yerine boþ/zararsýz bir nesne vererek if-kontrollerini azaltýrsýn.
+
+
+Multiton: Ayný sýnýftan anahtara göre tekil örnekler tutar (her anahtar için bir “singleton” gibi).
+
+
+
+
+
+1. Creational (Yaratýmsal) Desenler
+
+?? Amaç: Nesnelerin nasýl oluþturulacaðýný düzenlemek.
+
+Singleton ? Tek örnek.
+
+Factory Method ? Üretim yöntemini alt sýnýfa býrak.
+
+Abstract Factory ? Nesne aileleri oluþtur.
+
+Builder ? Adým adým inþa et.
+
+Prototype ? Kopyalayarak oluþtur.
+
+
+
+
+
+2. Structural (Yapýsal) Desenler
+
+?? Amaç: Nesneler ve sýnýflar arasýndaki iliþkileri düzenlemek.
+
+Adapter ? Uyum saðlamazsa çevirici koy.
+
+Facade ? Karmaþýklýðý basitleþtir.
+
+Composite ? Aðaç yapýsýyla birey–grup ayný.
+
+Proxy ? Aracý ekle, kontrol et.
+
+Decorator ? Sarmala, özellik ekle.
+
+Bridge ? Soyutlama ve uygulamayý ayýr.
+
+
+
+
+
+3. Behavioral (Davranýþsal) Desenler
+
+?? Amaç: Nesneler arasý iletiþim ve davranýþlarý yönetmek.
+
+Strategy ? Algoritmayý seçilebilir yap.
+
+Observer ? Deðiþiklikleri bildir.
+
+Chain of Responsibility ? Zincir halinde iþleme.
+
+Memento ? Durumu kaydet/geri al.
+
+Template Method ? Ýskeleti belirle, ayrýntýyý alt sýnýf yapsýn.
+
+State ? Duruma göre davranýþý deðiþtir.
+
+Mediator ? Nesneler arasý iletiþimi aracýyla yap.
+
+Command ? Ýþlemleri nesneleþtir.
+
+Visitor ? Yapýyý deðiþtirmeden yeni iþlem ekle.
+
+Null Object ? Boþ nesne ile davranýþ saðla.
+
+
+
+
+?? Özet:
+
+Creational ? “Nesneyi nasýl oluþtururum?”
+
+Structural ? “Nesneler birbirine nasýl baðlanýr?”
+
+Behavioral ? “Nesneler nasýl iletiþim kurar/davranýr?”
