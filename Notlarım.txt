@@ -146,6 +146,9 @@ Null Object ? Boþ nesne ile davranýþ saðla.
 
 Creational ? “Nesneyi nasýl oluþtururum?”
 
-Structural ? “Nesneler birbirine nasýl baðlanýr?”
+Structural ? “Nesneler birbirine nasýl baðlanýr?”   
 
-Behavioral ? “Nesneler nasýl iletiþim kurar/davranýr?”
+Behavioral ? “Nesneler nasýl iletiþim kurar/davranýr?”    
+
+
+strategy factory adapter facade 
